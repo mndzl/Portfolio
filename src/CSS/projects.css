@@ -1,0 +1,28 @@
+.projects-container{
+    width:80%;
+    margin: 3em auto;
+}
+.projects-title{
+    font-size: 2em;
+}
+.project{
+    margin:2em auto;
+    display: block;
+    max-width: 90%;
+}
+.project-container{
+    position:relative;
+}
+
+/* technologies container */
+.project-tools{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right:0;
+}
+
+/* technologies individual */
+.project-tool{
+    max-height: 2em;
+}
