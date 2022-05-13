@@ -9,57 +9,20 @@
 .intouch-picback{
     width: 100%;
 }
-
-.intouch-social-container{
-    display: flex;
-    gap:1em;
-    justify-content: center;
-}
-.intouch-social{
+.intouch-call{
     text-align: center;
-    margin:2em;
+    margin: 1.5em 0;
 }
-.intouch-i{
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    background-color: gray;
-    text-align: center;
-    border-radius: 50%;
-    min-width: 2em;
-    color:white;
+.intouch-socialmedia{
+    margin-top: 1em 0;
 }
 .intouch-msg{
     font-size: 2em;
     font-weight: 300;
-}
-.intouch-social-container{
-    margin:1em;
 }
 .separator{
     width: 50vw;
     height: 1px;
     background-color: rgb(168, 168, 168);
     margin:2em auto;
-}
-.fa-linkedin{
-    background-color:#0e76a8;
-    color:white;
-}
-.fa-envelope{
-    background-color: rgb(56, 56, 56);
-}
-.fa-twitter{
-    color:white;
-    background-color:#1DA1F2;
-}
-.fa-instagram{
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-}
-.fa-github{
-    background-color: black;
 }

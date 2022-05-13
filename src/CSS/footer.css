@@ -42,7 +42,7 @@
 
 
 /* RIGHT */
-    .footer-social{
+    .footer-container .social-container{
         display: flex;
         gap:.4em;
         flex-direction: column;
@@ -50,22 +50,14 @@
         margin-top: 1em;
         margin-bottom: 1em;
     }
-    .footer-social .fa{
+    .footer-container .fa{
         font-size: 1.2em;
         padding:.5em;
         border-radius: 50%;
         opacity: .7;
     }
-    .footer-social .fa-instagram{
-        color:white;
-    }
-    .footer-social .fa-github{
+    .footer-container .fa-github{
         background-color: white;
         color:black;
     }
-    .footer-i:hover{
-        opacity: 1 !important;
-    }
-    .footer-social .fa-envelope{
-        background-color: rgb(255, 255, 255);
-    }
+

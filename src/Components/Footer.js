@@ -1,4 +1,5 @@
 import '../CSS/footer.css';
+import SocialMedia from './SocialMedia';
 
 export default function Footer(){
     return (
@@ -27,15 +28,7 @@ export default function Footer(){
                     </ul>
                 </div>
             </div>
-            <div className="footer-right">
-                    <div className="footer-social">
-                        <a href="https://www.instagram.com/mendezluis3/"><i className="footer-i fa fa-instagram"></i></a>
-                        <a href="#"><i className="footer-i fa fa-twitter"></i></a>
-                        <a href="#"><i className="footer-i fa fa-linkedin"></i></a>
-                        <a href="#"><i className="footer-i fa fa-github"></i></a>
-                        <a href="#"><i className="footer-i fa fa-envelope"></i></a>
-                    </div>
-            </div>
+            <SocialMedia/>
         </div>  
     );
 }
