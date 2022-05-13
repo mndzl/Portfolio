@@ -1,17 +1,25 @@
 .projects-container{
-    width:80%;
-    margin: 3em auto;
+    max-width:90%;
+    margin: 0 auto;
+    padding:1em;
+}
+.projects-background{
+    background-color:rgb(22, 22, 22);
 }
 .projects-title{
     font-size: 2em;
+    color:white;
 }
 .project{
     margin:2em auto;
     display: block;
-    max-width: 90%;
+    max-width: 80%;
+    cursor:pointer;
+    box-shadow: 1px 5px 10px 0px black;
+    position: relative;
 }
-.project-container{
-    position:relative;
+.project-img{
+    max-width: 100%;
 }
 
 /* technologies container */
@@ -19,7 +27,8 @@
     display: flex;
     position: absolute;
     flex-direction: column;
-    right:0;
+    right:.5em;
+    top:.5em;
 }
 
 /* technologies individual */

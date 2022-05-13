@@ -7,13 +7,16 @@ export default function InTouch(){
             <img src={picture} className="intouch-picture" />
             <div className="intouch-social">
                 <span className="intouch-msg">Let's talk!</span>
-                <div className="intouch-social-container">
+                <div className="intouch-social-container" id='about'>
                     <a href="https://www.instagram.com/mendezluis3/"><i className="intouch-i fa fa-instagram"></i></a>
-                    <a href="#"><i className="intouch-i fa fa-twitter"></i></a>
+                    <a href=""><i className="intouch-i fa fa-twitter"></i></a>
                     <a href="#"><i className="intouch-i fa fa-linkedin"></i></a>
+                    <a href="#"><i className="intouch-i fa fa-github"></i></a>
                     <a href="#"><i className="intouch-i fa fa-envelope"></i></a>
                 </div>
+                
             </div>
+            
         </div>
     );
 }

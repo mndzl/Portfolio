@@ -13,36 +13,44 @@ import postgresql from '../media/technologies/postgresql.png';
 
 export default function Projects(){
     return (
-        <div className="projects-container">
-            <h1 className="projects-title">What I have developed</h1>
+        <div className="projects-background">
+            <div className="projects-container">
+                <h1 className="projects-title">What I have developed</h1>
 
-            <div className="projects">
-                
-                <div className="project-container gronno">
-                    <div className="project-tools" >
-                        <img src={django} className="project-tool" />
-                        <img src={postgresql} className="project-tool" />
-                        <img src={aws} className="project-tool" />
+                <div className="projects">
+                    
+                    <div className="project project-container gronno">
+                        {/*
+                        <div className="project-tools" >
+                            <img src={django} className="project-tool" />
+                            <img src={postgresql} className="project-tool" />
+                            <img src={aws} className="project-tool" />
+                        </div>
+                        */}
+                        <img className="project-img gronno" src={gronno}/>
                     </div>
-                    <img className="project gronno" src={gronno}/>
-                </div>
 
-                <div className="project-container schoolmanager">
-                    <div className="project-tools" >
-                        <img src={django} className="project-tool" />
-                        <img src={postgresql} className="project-tool" />
+                    <div className="project project-container schoolmanager">
+                        {/*
+                        <div className="project-tools" >
+                            <img src={django} className="project-tool" />
+                            <img src={postgresql} className="project-tool" />
+                        </div>
+                        */}
+                        <img className="project-img schoolmanager" src={schoolmanager}/>
                     </div>
-                    <img className="project schoolmanager" src={schoolmanager}/>
-                </div>
 
-                <div className="project-container barweights">
-                    <div className="project-tools" >
-                        <img src={react} className="project-tool" />
+                    <div className="project project-container barweights">
+                        {/*
+                        <div className="project-tools" >
+                            <img src={react} className="project-tool" />
+                        </div>
+                        */}
+                        <img className="project-img barweights" src={barweights}/>
                     </div>
-                    <img className="project barweights" src={barweights}/>
-                </div>
 
-                </div>
+                    </div>
+            </div>
         </div>
     );
 }

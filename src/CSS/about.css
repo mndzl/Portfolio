@@ -1,17 +1,16 @@
 .about-background{
     background-color:rgb(53, 53, 53);
-    margin: auto;
     color:white;
     box-shadow: 2px 2px 5px 0px rgb(149, 149, 149);
+
 }
 .about-container{
-    width: 80%;
+    max-width: 95%;
     margin: auto;
     padding:2em;
 }
 .about-title{
     font-size: 2em;
-    margin-bottom: 1em;
 }
 .about-container p{
     line-height: 2em;
@@ -19,5 +18,4 @@
 }
 .about-container hr{
     border-top: 1px solid rgb(116, 116, 116);
-    margin-bottom: 2em;
 }

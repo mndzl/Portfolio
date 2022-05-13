@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import InTouch from './Components/InTouch';
 import About from './Components/About';
 import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 import './CSS/index.css';
 
 
@@ -14,6 +15,7 @@ root.render(
     <InTouch />
     <About/>
     <Projects/>
+    <Footer />
   </>
 );
 
